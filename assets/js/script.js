@@ -20,4 +20,14 @@ $(function(){
     })
 
 
+
+    $('.sc-project .tab-nav a').click(function(e){
+        e.preventDefault();
+        tab=$(this).data('tab');
+
+        $(this).addClass('active').siblings().removeClass('active');
+        $(tab).addClass('active').siblings().removeClass('active');
+
+    })
+
 })

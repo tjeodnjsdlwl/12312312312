@@ -16,7 +16,7 @@
 }
 .header .gnb ul{
     display: flex;
-    gap: 60px;
+    gap: 55px;
  }
  .header .gnb li{}
  .header .gnb a{
@@ -52,3 +52,18 @@
     color: #131442;
     font-size: 12px;
  }
+
+/*  */
+ .main footer{ background: #fff; padding-top: 388px; }
+ /*  */
+ .projectList .footer{color: #fff; padding-top: 388px; }
+ .projectList .footer .inner .copy{color: #fff;}
+/*  */
+.projectView .footer{color: #fff; padding-top: 177px; }
+.projectView .footer .inner .copy{color: #fff;}
+
+.designerList .footer{color: #fff; padding-top: 482px;}
+.designerList .footer .inner .copy{color: #fff;}
+
+.designerView .footer{color: #fff; padding-top: 111px;}
+.designerView .footer .inner .copy{color: #fff;}
