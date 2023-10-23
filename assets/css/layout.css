@@ -1,0 +1,54 @@
+ 
+ .header{
+    position: fixed;
+    top: 52px;left: 0;
+    width: 100%;
+    z-index: 10;
+ }
+ .header .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+ }
+ .header .logo{}
+ .header .gnb{
+}
+.header .gnb ul{
+    display: flex;
+    gap: 60px;
+ }
+ .header .gnb li{}
+ .header .gnb a{
+    color: #959ed6;
+    font-size: 20px;
+    transition: .3s;
+ }
+ .header .gnb a:hover{
+    color: #fff;
+    /* font-weight: bold; */
+ }
+
+ .footer{
+    padding: 56px 0;
+ }
+ .footer .inner{
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer .inner .text{
+    font-size: 16px;
+    letter-spacing: 0.16px;
+}
+.footer .inner .text strong{
+    display: block;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0.2px;
+ }
+
+
+ .footer .inner .copy{
+    color: #131442;
+    font-size: 12px;
+ }
